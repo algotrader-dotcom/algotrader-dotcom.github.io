@@ -18,16 +18,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Notes about Algorithm Trading with Python
+email: algotrader-dotcom@proton.me
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Algorithm Trading with Python is blogging about automatic crypto trading which uses computer to place 
+  an order long/short defined by a set of instructions known as an algorithm. In theroy, the trade can generate profits
+  at a speed and frequency that is impossible for a human trader.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: algotrader-dotcom
+github_username:  algotrader-dotcom
 
 # Build settings
 theme: minima
