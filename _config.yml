@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Notes about Algorithm Trading with Python
+title: Algo trading with Python
 email: algotrader-dotcom@proton.me
 description: >- # this means to ignore newlines until "baseurl:"
   Algorithm Trading with Python is blogging about automatic crypto trading which uses computer to place 
