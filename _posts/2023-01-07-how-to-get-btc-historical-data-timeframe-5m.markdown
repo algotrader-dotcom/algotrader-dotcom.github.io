@@ -37,6 +37,8 @@ except:
 print(df)
 </pre>
 
+Output: 
+
 <pre>
            Open	High	Low	Close	Adj Close	Volume
 Datetime						
