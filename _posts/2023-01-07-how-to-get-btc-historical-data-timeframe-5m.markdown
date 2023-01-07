@@ -18,19 +18,18 @@ import yfinance as yf
 In this post, we will use yfinance libarary to get bitcoin history data.
 Please note that the maximum date range for retrieving minute period data for crypto is 7 days.
 
-Here are the valid `period` parameters: 1d,5d,1mo,3mo,6mo,1y,2y,5y,10y,ytd,max
+Here are the valid `period` parameters: `1d,5d,1mo,3mo,6mo,1y,2y,5y,10y,ytd,max`
 
-And these are the valid `interval` parameters: 1m,2m,5m,15m,30m,60m,90m,1h,1d,5d,1wk,1mo,3mo
+And these are the valid `interval` parameters: `1m,2m,5m,15m,30m,60m,90m,1h,1d,5d,1wk,1mo,3mo`
 
 For details about the input parameters for the Yahoo Finance download function, please refer to the documentation.
 
-This is the function that performs the downloads based on the input parameters.
-
 <pre>
+symbol = "BTC-USD"
+period = "1d"
+interval = "5m"
 try:
     df = yf.download(symbol, start=start_date_str, end=today_date_str, period=period, interval=interval, prepost=prepost)
-    #  Add symbol
-    df["Symbol"] = symbol
     return df
 except:
     print('Error loading stock data for ' + symbols)
