@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to get bitcoin historical data timeframe 5m"
+title:  "How to get btc history data timeframe 5m"
 date:   2023-01-07 15:37:22 +0700
 categories: bitcoin
 ---
